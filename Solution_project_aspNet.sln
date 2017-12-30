@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ausgeschichnet_project_aspNet", "Ausgeschichnet_project_aspNet\Ausgeschichnet_project_aspNet.csproj", "{CAC7DDC2-CB2D-4081-BA0B-8B7F34B1CA00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL_SERVER-SQLEXPRESS", "SQL_SERVER-SQLEXPRESS\SQL_SERVER-SQLEXPRESS.csproj", "{5392C5C1-E214-45B7-84CE-EBA1581522CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CAC7DDC2-CB2D-4081-BA0B-8B7F34B1CA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAC7DDC2-CB2D-4081-BA0B-8B7F34B1CA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAC7DDC2-CB2D-4081-BA0B-8B7F34B1CA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5392C5C1-E214-45B7-84CE-EBA1581522CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5392C5C1-E214-45B7-84CE-EBA1581522CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5392C5C1-E214-45B7-84CE-EBA1581522CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5392C5C1-E214-45B7-84CE-EBA1581522CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
