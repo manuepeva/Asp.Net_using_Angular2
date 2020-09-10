@@ -4,7 +4,6 @@ import Error from './Components/Error/Error';
 import Clima from './Components/Clima/Clima';
 import Formulario from './Components/Formulario/Formulario';
 
-
 function App() {
 
   // State del formulario
@@ -27,7 +26,7 @@ function App() {
 
       if (consultar) {
         const appID = 'd85892e19ddec0eda9cfbfba1f53029e';
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},
         ${pais}&appid=${appID}`;
         const respuesta = await fetch(url);
         const resultado = await respuesta.json();
@@ -47,6 +46,7 @@ function App() {
 
     }
     consultarAPI();
+    // eslint-disable-next-line
   }, [consultar]);
 
   let componente;
